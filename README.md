@@ -1,67 +1,128 @@
 # 📈 TradePro - Modern Trading Platform
 
-A full-stack trading platform built with React and Node.js, inspired by Groww. This application provides a comprehensive stock trading experience with real-time data, portfolio management, and secure transactions.
+<div align="center">
 
-![TradePro Dashboard](https://img.shields.io/badge/Status-Active-green)
-![Version](https://img.shields.io/badge/Version-1.0.0-blue)
-![License](https://img.shields.io/badge/License-MIT-yellow)
-![React](https://img.shields.io/badge/React-18.3.1-blue)
-![Node.js](https://img.shields.io/badge/Node.js-Latest-green)
-![MongoDB](https://img.shields.io/badge/MongoDB-Latest-green)
+![TradePro Logo](https://img.shields.io/badge/TradePro-Trading%20Platform-00b386?style=for-the-badge&logo=trending-up&logoColor=white)
 
-## 🌟 **Live Demo**
-- **Frontend**: [Your Deployed URL Here]
-- **Backend API**: [Your API URL Here]
+**A full-stack trading platform built with React and Node.js, inspired by Groww**
+
+[![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)](https://github.com/officialharis/Trade-Pro)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=flat-square)](https://github.com/officialharis/Trade-Pro/releases)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
+[![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=flat-square&logo=react)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-Latest-339933?style=flat-square&logo=node.js)](https://nodejs.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=flat-square&logo=mongodb)](https://mongodb.com/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.1-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+
+[🚀 Live Demo](#) • [📖 Documentation](#-getting-started) • [🐛 Report Bug](https://github.com/officialharis/Trade-Pro/issues) • [✨ Request Feature](https://github.com/officialharis/Trade-Pro/issues)
+
+</div>
+
+---
 
 ## 📸 **Screenshots**
-*Add screenshots of your application here*
 
-## 🚀 Features
+<div align="center">
 
-### Core Trading Features
-- **Real-time Stock Data**: Live stock prices and market indices
-- **Buy/Sell Stocks**: Execute trades with real-time balance updates
-- **Portfolio Management**: Track holdings, P&L, and performance
-- **Watchlist**: Monitor favorite stocks
-- **Transaction History**: Complete trading history with detailed records
+### 🏠 Home Page
+![Home Page](https://via.placeholder.com/800x400/00b386/ffffff?text=TradePro+Home+Page)
 
-### User Experience
-- **Advanced Search**: Real-time stock search with keyboard navigation
-- **Interactive Charts**: Dynamic price charts with multiple timeframes
-- **Dark/Light Mode**: Toggle between themes with system preference detection
-- **Responsive Design**: Optimized for desktop and mobile devices
-- **Wallet Management**: Deposit/withdraw funds with Razorpay integration
+### 📊 Dashboard
+![Dashboard](https://via.placeholder.com/800x400/00b386/ffffff?text=TradePro+Dashboard)
 
-### Security & Authentication
-- **JWT Authentication**: Secure user sessions
-- **Password Encryption**: bcrypt hashing for user passwords
-- **Protected Routes**: Authenticated access to trading features
-- **Input Validation**: Comprehensive data validation
+### 💼 Portfolio Management
+![Portfolio](https://via.placeholder.com/800x400/00b386/ffffff?text=Portfolio+Management)
 
-## 🛠️ Technology Stack
+### 📱 Mobile Responsive
+<img src="https://via.placeholder.com/300x600/00b386/ffffff?text=Mobile+View" alt="Mobile View" width="300">
 
-### Frontend
-- **React 18.3.1**: Modern React with hooks and context
-- **React Router DOM 6.22.0**: Client-side routing
-- **Vite 5.4.2**: Fast build tool and development server
-- **Tailwind CSS 3.4.1**: Utility-first CSS framework
-- **Lucide React**: Beautiful icon library
-- **Recharts 2.12.1**: Interactive charts and data visualization
+</div>
 
-### Backend
-- **Node.js**: JavaScript runtime
-- **Express.js 4.18.2**: Web application framework
-- **MongoDB**: NoSQL database with Mongoose ODM
-- **JWT**: JSON Web Tokens for authentication
-- **bcryptjs**: Password hashing
-- **CORS**: Cross-origin resource sharing
-- **Razorpay 2.9.2**: Payment gateway integration
+---
 
-### Development Tools
-- **TypeScript 5.5.3**: Type safety and better development experience
-- **ESLint**: Code linting and formatting
-- **PostCSS**: CSS processing
-- **Autoprefixer**: CSS vendor prefixing
+## ✨ **Key Features**
+
+<div align="center">
+
+| 🎯 **Trading** | � **Portfolio** | 🔐 **Security** | 🎨 **UI/UX** |
+|:---:|:---:|:---:|:---:|
+| Real-time stock data | Holdings tracking | JWT authentication | Dark/Light mode |
+| Buy/Sell execution | P&L calculation | Password encryption | Responsive design |
+| Market indices | Performance metrics | Protected routes | Advanced search |
+| Transaction history | Watchlist management | Input validation | Interactive charts |
+
+</div>
+
+### 🎯 **Core Trading Features**
+- ✅ **Real-time Stock Data** - Live prices and market indices
+- ✅ **Buy/Sell Execution** - Instant trades with balance updates
+- ✅ **Portfolio Tracking** - Holdings, P&L, and performance metrics
+- ✅ **Watchlist Management** - Monitor favorite stocks
+- ✅ **Transaction History** - Complete trading records
+
+### 💰 **Wallet & Payments**
+- ✅ **Digital Wallet** - $1000 default balance for new users
+- ✅ **Razorpay Integration** - Secure payment gateway (test mode)
+- ✅ **Multiple Payment Methods** - UPI, Cards, Net Banking
+- ✅ **Real-time Balance Updates** - Instant wallet synchronization
+
+### 🎨 **User Experience**
+- ✅ **Beautiful Home Page** - Professional landing page
+- ✅ **Advanced Search** - Real-time stock search with keyboard navigation
+- ✅ **Interactive Charts** - Dynamic price visualization
+- ✅ **Dark/Light Mode** - Theme toggle with system preference
+- ✅ **Mobile Responsive** - Optimized for all devices
+
+### 🔐 **Security & Authentication**
+- ✅ **JWT Authentication** - Secure user sessions
+- ✅ **Password Encryption** - bcrypt hashing
+- ✅ **Protected Routes** - Authenticated access only
+- ✅ **Input Validation** - Comprehensive data validation
+
+## 🛠️ **Technology Stack**
+
+<div align="center">
+
+### **Frontend**
+![React](https://img.shields.io/badge/React-18.3.1-61dafb?style=for-the-badge&logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-5.4.2-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-3.4.1-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.5.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+### **Backend**
+![Node.js](https://img.shields.io/badge/Node.js-Latest-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-4.18.2-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=for-the-badge&logo=json-web-tokens&logoColor=white)
+
+### **Payment & Tools**
+![Razorpay](https://img.shields.io/badge/Razorpay-2.9.6-02042B?style=for-the-badge&logo=razorpay&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-Latest-4B32C3?style=for-the-badge&logo=eslint&logoColor=white)
+
+</div>
+
+### 🎨 **Frontend Technologies**
+- **React 18.3.1** - Modern React with hooks and context API
+- **React Router DOM 6.22.0** - Client-side routing and navigation
+- **Vite 5.4.2** - Lightning-fast build tool and dev server
+- **Tailwind CSS 3.4.1** - Utility-first CSS framework
+- **Lucide React** - Beautiful and consistent icon library
+- **Recharts 2.12.1** - Interactive charts and data visualization
+
+### ⚙️ **Backend Technologies**
+- **Node.js** - JavaScript runtime environment
+- **Express.js 4.18.2** - Fast and minimal web framework
+- **MongoDB** - NoSQL database with Mongoose ODM
+- **JWT** - JSON Web Tokens for secure authentication
+- **bcryptjs** - Password hashing and encryption
+- **CORS** - Cross-origin resource sharing middleware
+- **Razorpay 2.9.6** - Payment gateway integration
+
+### 🔧 **Development Tools**
+- **TypeScript 5.5.3** - Type safety and enhanced development
+- **ESLint** - Code linting and formatting
+- **PostCSS** - CSS processing and optimization
+- **Autoprefixer** - Automatic CSS vendor prefixing
 
 ## 📁 Project Structure
 
@@ -107,70 +168,97 @@ TradePro/
 └── .env                     # Environment variables
 ```
 
-## 🚦 Getting Started
+## � **Getting Started**
 
-### Prerequisites
-- Node.js (v18 or higher)
-- MongoDB (local installation or MongoDB Atlas)
-- npm or yarn package manager
+### 📋 **Prerequisites**
 
-### Installation
+Before you begin, ensure you have the following installed:
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/tradepro.git
-cd tradepro
-```
+- ![Node.js](https://img.shields.io/badge/Node.js-v18+-339933?style=flat-square&logo=node.js) **Node.js** (v18 or higher)
+- ![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=flat-square&logo=mongodb) **MongoDB** (local or Atlas)
+- ![npm](https://img.shields.io/badge/npm-Latest-CB3837?style=flat-square&logo=npm) **npm** or **yarn** package manager
 
-2. **Install dependencies**
-```bash
-npm install
-```
+### ⚡ **Quick Start**
 
-3. **Environment Setup**
-Create a `.env` file in the root directory:
-```env
-# Database
-MONGODB_URI=mongodb://localhost:27017/stock
+1. **📥 Clone the repository**
+   ```bash
+   git clone https://github.com/officialharis/Trade-Pro.git
+   cd Trade-Pro
+   ```
 
-# JWT Secret
-JWT_SECRET=your-super-secret-jwt-key-here-tradepro-2024
+2. **📦 Install dependencies**
+   ```bash
+   npm install
+   ```
 
-# Server
-PORT=5000
-NODE_ENV=development
+3. **⚙️ Environment Setup**
 
-# CORS
-CORS_ORIGIN=http://localhost:5173
+   Create a `.env` file in the root directory:
+   ```env
+   # Database Configuration
+   MONGODB_URI=mongodb://localhost:27017/stock
 
-# Razorpay (Test Mode)
-RAZORPAY_KEY_ID=rzp_test_1DP5mmOlF5G5ag
-RAZORPAY_KEY_SECRET=thisissecretkey
-```
+   # JWT Authentication
+   JWT_SECRET=your-super-secret-jwt-key-here-tradepro-2024
 
-4. **Start MongoDB**
-Make sure MongoDB is running on your system or configure MongoDB Atlas connection.
+   # Server Configuration
+   PORT=5000
+   NODE_ENV=development
 
-5. **Seed the database (optional)**
-```bash
-npm run seed
-```
+   # CORS Configuration
+   CORS_ORIGIN=http://localhost:5173
 
-6. **Start the development servers**
+   # Razorpay Payment Gateway (Test Mode)
+   RAZORPAY_KEY_ID=rzp_test_1DP5mmOlF5G5ag
+   RAZORPAY_KEY_SECRET=thisissecretkey
+   ```
 
-In one terminal (Backend):
-```bash
-npm run server
-```
+4. **🗄️ Database Setup**
 
-In another terminal (Frontend):
-```bash
-npm run dev
-```
+   **Option A: Local MongoDB**
+   ```bash
+   # Start MongoDB service
+   mongod
+   ```
 
-The application will be available at:
-- Frontend: http://localhost:5173
-- Backend API: http://localhost:5000
+   **Option B: MongoDB Atlas**
+   - Create account at [MongoDB Atlas](https://www.mongodb.com/atlas)
+   - Create cluster and get connection string
+   - Update `MONGODB_URI` in `.env` file
+
+5. **🌱 Seed Database (Optional)**
+   ```bash
+   # Populate with sample data
+   npm run seed
+   ```
+
+6. **🚀 Start Development Servers**
+
+   **Terminal 1 - Backend Server:**
+   ```bash
+   npm run server
+   ```
+
+   **Terminal 2 - Frontend Development:**
+   ```bash
+   npm run dev
+   ```
+
+7. **🎉 Access Application**
+
+   - **Frontend**: [http://localhost:5173](http://localhost:5173)
+   - **Backend API**: [http://localhost:5000](http://localhost:5000)
+
+### 🔧 **Available Scripts**
+
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start frontend development server |
+| `npm run server` | Start backend server |
+| `npm run build` | Build for production |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint code analysis |
+| `npm run seed` | Seed database with sample data |
 
 ## 📊 Database Schema
 
@@ -360,34 +448,103 @@ npm run seed         # Seed database with sample data
 - **Docker**: Containerization for easier deployment
 - **CI/CD**: Automated testing and deployment pipelines
 
-## 🤝 Contributing
+## 🤝 **Contributing**
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+We welcome contributions! Here's how you can help:
 
-## 📄 License
+<div align="center">
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+[![Contributors](https://img.shields.io/github/contributors/officialharis/Trade-Pro?style=for-the-badge)](https://github.com/officialharis/Trade-Pro/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/officialharis/Trade-Pro?style=for-the-badge)](https://github.com/officialharis/Trade-Pro/network/members)
+[![Stars](https://img.shields.io/github/stars/officialharis/Trade-Pro?style=for-the-badge)](https://github.com/officialharis/Trade-Pro/stargazers)
+[![Issues](https://img.shields.io/github/issues/officialharis/Trade-Pro?style=for-the-badge)](https://github.com/officialharis/Trade-Pro/issues)
 
-## 👥 Authors
+</div>
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+### **How to Contribute**
 
-## 🙏 Acknowledgments
-
-- Inspired by Groww's clean and intuitive design
-- React and Node.js communities for excellent documentation
-- MongoDB for flexible data modeling
-- Tailwind CSS for rapid UI development
-- Lucide React for beautiful icons
-
-## 📞 Support
-
-For support, email support@tradepro.com or join our Slack channel.
+1. **🍴 Fork the repository**
+2. **🌿 Create a feature branch**
+   ```bash
+   git checkout -b feature/amazing-feature
+   ```
+3. **💻 Make your changes**
+4. **✅ Commit your changes**
+   ```bash
+   git commit -m 'feat: Add amazing feature'
+   ```
+5. **🚀 Push to the branch**
+   ```bash
+   git push origin feature/amazing-feature
+   ```
+6. **🔄 Open a Pull Request**
 
 ---
 
-**Happy Trading! 📈**
+## 📄 **License**
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+```
+MIT License - feel free to use this project for learning and development!
+```
+
+---
+
+## 👨‍💻 **Author**
+
+<div align="center">
+
+**Haris** - *Full Stack Developer*
+
+[![GitHub](https://img.shields.io/badge/GitHub-officialharis-181717?style=for-the-badge&logo=github)](https://github.com/officialharis)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:h10dewangan@gmail.com)
+
+*"Building the future of trading platforms, one commit at a time"*
+
+</div>
+
+---
+
+## 🙏 **Acknowledgments**
+
+- 🎨 **Design Inspiration**: [Groww](https://groww.in) for clean and intuitive UI/UX
+- ⚛️ **React Community**: For excellent documentation and ecosystem
+- 🟢 **Node.js Community**: For robust backend development tools
+- 🍃 **MongoDB**: For flexible and scalable database solutions
+- 🎨 **Tailwind CSS**: For rapid and responsive UI development
+- 🎯 **Lucide React**: For beautiful and consistent icons
+- 💳 **Razorpay**: For secure payment gateway integration
+
+---
+
+## 📞 **Support & Contact**
+
+<div align="center">
+
+### **Need Help?**
+
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github)](https://github.com/officialharis/Trade-Pro/issues)
+[![Email](https://img.shields.io/badge/Email-h10dewangan@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:h10dewangan@gmail.com)
+
+**Found a bug?** [Report it here](https://github.com/officialharis/Trade-Pro/issues/new)
+
+**Have a feature request?** [Suggest it here](https://github.com/officialharis/Trade-Pro/issues/new)
+
+</div>
+
+---
+
+<div align="center">
+
+### **⭐ Star this repository if you found it helpful!**
+
+**Happy Trading! 📈💰**
+
+*Made with ❤️ by [Haris](https://github.com/officialharis)*
+
+---
+
+![Footer](https://img.shields.io/badge/TradePro-2024-00b386?style=for-the-badge&logo=trending-up&logoColor=white)
+
+</div>
