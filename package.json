@@ -11,7 +11,10 @@
     "server": "node server/index.js",
     "kill-server": "taskkill /F /IM node.exe",
     "seed": "node server/seedData.cjs",
-    "seed-users": "node server/seedUsers.cjs"
+    "seed-users": "node server/seedUsers.cjs",
+    "migrate-db": "node migrate-database.cjs",
+    "update-db-config": "node update-database-config.cjs",
+    "setup-atlas": "npm run update-db-config && npm run migrate-db"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
