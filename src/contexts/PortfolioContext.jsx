@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
+import { getApiUrl } from '../config/api';
 
 const PortfolioContext = createContext();
 
@@ -59,7 +60,7 @@ export const PortfolioProvider = ({ children }) => {
     if (!user?.token) return false;
 
     try {
-      const response = await fetch('http://localhost:5000/api/portfolio/buy', {
+      const response = await fetch(getApiUrl('/portfolio/buy'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,
@@ -97,7 +98,7 @@ export const PortfolioProvider = ({ children }) => {
     if (!user?.token) return false;
 
     try {
-      const response = await fetch('http://localhost:5000/api/portfolio/sell', {
+      const response = await fetch(getApiUrl('/portfolio/sell'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,
@@ -138,7 +139,7 @@ export const PortfolioProvider = ({ children }) => {
       setLoading(true);
       setError(null);
 
-      const response = await fetch('http://localhost:5000/api/portfolio', {
+      const response = await fetch(getApiUrl('/portfolio'), {
         headers: {
           'Authorization': `Bearer ${user.token}`,
           'Content-Type': 'application/json'
@@ -166,7 +167,7 @@ export const PortfolioProvider = ({ children }) => {
     if (!user?.token) return;
 
     try {
-      const response = await fetch('http://localhost:5000/api/transactions', {
+      const response = await fetch(getApiUrl('/transactions'), {
         headers: {
           'Authorization': `Bearer ${user.token}`,
           'Content-Type': 'application/json'

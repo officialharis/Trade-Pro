@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { useAuth } from './AuthContext';
+import { getApiUrl } from '../config/api';
 
 const WalletContext = createContext();
 
@@ -29,8 +30,8 @@ export const WalletProvider = ({ children }) => {
       setLoading(true);
       // Add cache busting parameter for force refresh
       const url = forceRefresh
-        ? `http://localhost:5000/api/wallet?t=${Date.now()}`
-        : 'http://localhost:5000/api/wallet';
+        ? `${getApiUrl('/wallet')}?t=${Date.now()}`
+        : getApiUrl('/wallet');
 
       const response = await fetch(url, {
         headers: {
@@ -74,7 +75,7 @@ export const WalletProvider = ({ children }) => {
     if (!user?.token) return;
 
     try {
-      const response = await fetch('http://localhost:5000/api/wallet/initialize', {
+      const response = await fetch(getApiUrl('/wallet/initialize'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,
@@ -118,7 +119,7 @@ export const WalletProvider = ({ children }) => {
     if (!user?.token) return false;
 
     try {
-      const response = await fetch('http://localhost:5000/api/wallet/deposit', {
+      const response = await fetch(getApiUrl('/wallet/deposit'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,
@@ -150,7 +151,7 @@ export const WalletProvider = ({ children }) => {
     if (!user?.token) return null;
 
     try {
-      const response = await fetch('http://localhost:5000/api/payment/create-order', {
+      const response = await fetch(getApiUrl('/payment/create-order'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,
@@ -177,7 +178,7 @@ export const WalletProvider = ({ children }) => {
     if (!user?.token) return false;
 
     try {
-      const response = await fetch('http://localhost:5000/api/payment/verify', {
+      const response = await fetch(getApiUrl('/payment/verify'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,
@@ -209,7 +210,7 @@ export const WalletProvider = ({ children }) => {
     if (!user?.token) return false;
 
     try {
-      const response = await fetch('http://localhost:5000/api/wallet/withdraw', {
+      const response = await fetch(getApiUrl('/wallet/withdraw'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${user.token}`,

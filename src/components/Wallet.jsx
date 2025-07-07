@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Wallet as WalletIcon, Plus, Minus, DollarSign, TrendingUp, TrendingDown, Calendar, CreditCard, Smartphone, Building2 } from 'lucide-react';
 import { useWallet } from '../contexts/WalletContext';
 import { useAuth } from '../contexts/AuthContext';
+import { getApiUrl } from '../config/api';
 
 // Custom Razorpay Payment Form Component
 const RazorpayPaymentForm = ({ onPayment, processing, onCancel }) => {
@@ -436,7 +437,7 @@ const Wallet = () => {
   const initializeWallet = async () => {
     try {
       const token = localStorage.getItem('groww_token');
-      const response = await fetch('http://localhost:5000/api/wallet/initialize', {
+      const response = await fetch(getApiUrl('/wallet/initialize'), {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -460,7 +461,7 @@ const Wallet = () => {
   const debugWallet = async () => {
     try {
       const token = localStorage.getItem('groww_token');
-      const response = await fetch('http://localhost:5000/api/wallet/debug', {
+      const response = await fetch(getApiUrl('/wallet/debug'), {
         headers: {
           'Authorization': `Bearer ${token}`,
           'Content-Type': 'application/json'

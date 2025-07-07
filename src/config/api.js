@@ -2,11 +2,11 @@
 
 const API_CONFIG = {
   development: {
-    baseURL: 'http://localhost:5000/api',
+    baseURL: 'http://localhost:5000',
     timeout: 10000
   },
   production: {
-    baseURL: import.meta.env.VITE_API_URL || 'https://tradepro-backend.railway.app/api',
+    baseURL: import.meta.env.VITE_API_URL || 'https://tradepro-backend.railway.app',
     timeout: 15000
   }
 };

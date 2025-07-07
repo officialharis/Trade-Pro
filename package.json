@@ -14,7 +14,9 @@
     "seed-users": "node server/seedUsers.cjs",
     "migrate-db": "node migrate-database.cjs",
     "update-db-config": "node update-database-config.cjs",
-    "setup-atlas": "npm run update-db-config && npm run migrate-db"
+    "setup-atlas": "npm run update-db-config && npm run migrate-db",
+    "build:netlify": "npm run build",
+    "deploy:netlify": "netlify deploy --prod --dir=dist"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
