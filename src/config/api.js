@@ -6,7 +6,8 @@ const API_CONFIG = {
     timeout: 10000
   },
   production: {
-    baseURL: import.meta.env.VITE_API_URL || 'https://tradepro-backend.railway.app',
+    // For Vercel deployment, API routes are served from the same domain
+    baseURL: import.meta.env.VITE_API_URL || window.location.origin,
     timeout: 15000
   }
 };

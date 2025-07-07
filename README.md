@@ -16,6 +16,12 @@
 
 [🚀 Live Demo](#) • [📖 Documentation](#-getting-started) • [🐛 Report Bug](https://github.com/officialharis/Trade-Pro/issues) • [✨ Request Feature](https://github.com/officialharis/Trade-Pro/issues)
 
+## 🚀 Quick Deploy to Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/your-repo)
+
+This project is now optimized for **Vercel deployment** with serverless API functions! See [VERCEL_DEPLOYMENT.md](VERCEL_DEPLOYMENT.md) for detailed deployment instructions.
+
 </div>
 
 ---
